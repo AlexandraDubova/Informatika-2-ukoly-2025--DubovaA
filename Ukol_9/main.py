@@ -11,7 +11,7 @@ def log_action(func):
         with open("history.log", "a") as log_file:
             log_file.write(f"Action: {func.__name__}, Args: {args[1:]}, Kwargs: {kwargs}\n")
         return result
-    return wrapper
+     return wrapper
 
 class InventoryManager:
     def __init__(self, storage: Storage):
