@@ -1,4 +1,4 @@
-name: Python Ukol 8 Tests
+name: Python Ukol 9 Tests
 
 on: [push, pull_request]
 
